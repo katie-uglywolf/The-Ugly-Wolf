@@ -1,51 +1,56 @@
 @font-face {
   font-family: "Gotham";
   font-weight: 800;
-  src: url("./fonts/Gotham-Bold.otf");
+  src: url("./assets/fonts/Gotham-Bold.otf");
 }
 @font-face {
   font-family: "Gotham";
   font-weight: 600;
-  src: url("./fonts/Gotham-Medium.otf");
+  src: url("./assets/fonts/Gotham-Medium.otf");
 }
 @font-face {
   font-family: "Gotham";
   font-weight: 400;
-  src: url("./fonts/Gotham-Book.otf");
+  src: url("./assets/fonts/Gotham-Book.otf");
 }
 @font-face {
   font-family: "Gotham";
   font-weight: 200;
-  src: url("./fonts/Gotham-Light.otf");
+  src: url("./assets/fonts/Gotham-Light.otf");
 }
 @font-face {
   font-family: "Gotham-Italic";
   font-weight: 800;
-  src: url("./fonts/Gotham-BoldItalic.otf");
+  src: url("./assets/fonts/Gotham-BoldItalic.otf");
 }
 @font-face {
   font-family: "Gotham-Italic";
   font-weight: 600;
-  src: url("./fonts/Gotham-MediumItalic.otf");
+  src: url("./assets/fonts/Gotham-MediumItalic.otf");
 }
 @font-face {
   font-family: "Gotham-Italic";
   font-weight: 400;
-  src: url("./fonts/Gotham-BookItalic.otf");
+  src: url("./assets/fonts/Gotham-BookItalic.otf");
 }
 @font-face {
   font-family: "Gotham-Italic";
   font-weight: 200;
-  src: url("./fonts/Gotham-LightItalic.otf");
+  src: url("./assets/fonts/Gotham-LightItalic.otf");
 }
 @font-face {
   font-family: "Thirthy";
-  src: url("./fonts/Thirthy.otf");
+  src: url("./assets/fonts/Thirthy.otf");
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
 }
 
 .hero_wrapper {
   width: 100%;
-  height: 80%;
+  height: 100vh;
   background-color: #888;
   color: #FFF;
   display: flex;
@@ -53,6 +58,26 @@
   justify-content: center;
   align-items: center;
 }
+.hero_video_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero_video {
+  min-height: 100%;
+  min-width: 100%;
+}
+.hero_contents {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo{
   height: 92px;
   width: 214px;
