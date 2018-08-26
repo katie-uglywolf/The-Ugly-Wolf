@@ -306,6 +306,9 @@ body {
     font-size: 80px;
     margin: 0.2em 0;
   }
+  .tagline_image {
+    width: 80%;
+  }
   .ig_wrapper {
     flex-direction: column;
     height: 1024px;
