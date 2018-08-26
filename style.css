@@ -123,11 +123,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+.cta_text_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .cta {
   font-size: 45px;
   font-family: Gotham;
   font-weight: 600;
-  margin: 1em;
+  margin: 1em 0.2em;
 }
 
 .phone_mocks_wrapper {
@@ -161,11 +166,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.tagline {
-  font-family: 'Thirthy';
-  font-size: 150px;
-  color: #289FBD;
 }
 
 .ig_wrapper {
@@ -266,7 +266,7 @@ body {
 .legal_body{
   font-size: 16px;
   font-family: Gotham;
-  font-weight: 400;
+  font-weight: 600;
   margin: 1.5em 0;
 }
 
@@ -279,10 +279,18 @@ body {
   .cta_wrapper {
     padding: 8em 0;
   }
+  .cta_text_wrapper {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+  }
   .cta {
     font-size: 40px;
     line-height: 1.5;
     text-align: center;
+    margin: 0.2em 0;
   }
   .phone_mocks_wrapper {
     flex-direction: column;
