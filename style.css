@@ -325,6 +325,7 @@ body {
     height: 1024px;
   }
   .ig_photo {
+    object-fit: cover;
     height: 320px;
     width: 320px;
   }
