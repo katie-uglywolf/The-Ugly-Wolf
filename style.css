@@ -263,6 +263,17 @@ body {
   color: #FE9343;
 }
 
+.legal_subheader {
+  font-size: 20px;
+  font-family: Gotham;
+  font-weight: 600;
+  margin: 40px 20px;
+}
+
+.legal_sublist {
+  list-style-type: circle;
+}
+
 .legal_body{
   font-size: 16px;
   font-family: Gotham;
